@@ -1,0 +1,8 @@
+Name,Description,Standard Name,Units
+thetao,Temperature,sea_water_potential_temperature,degrees_C
+bottomT,Sea floor potential temperature,sea_water_potential_temperature_at_sea_floor,degrees_C
+so,Salinity,sea_water_salinity,1.00E-03
+zos,Sea surface height,sea_surface_height_above_geoid,m
+uo,Eastward velocity,eastward_sea_water_velocity,m s-1
+vo,Northward velocity,northward_sea_water_velocity,m s-1
+mlotst,Ocean mixed layer thickness defined by density,ocean_mixed_layer_thickness_defined_by_sigma_theta,m
