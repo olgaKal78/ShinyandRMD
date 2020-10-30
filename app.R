@@ -10,7 +10,7 @@
 library(shiny)
 
 # Define UI for application that draws a histogram
-ui <- #
+ #
     # This is a Shiny web application. You can run the application by clicking
     # the 'Run App' button above.
     #
@@ -280,10 +280,12 @@ server <- function(input, output,session) {
             
         })
     })
-    output$dataD <- renderUI({
-        updateTabsetPanel(session, "inTabset",selected = "Data Description")
-        includeHTML("Data-Sources.html")})
+    # output$dataD <- renderUI({
+    #     updateTabsetPanel(session, "inTabset",selected = "Data Description")
+    #     includeHTML("Data-Sources.html")})
     
+    
+   
     output$downloadResults <- downloadHandler(
         filename <- function() {
             paste("output", "zip", sep=".")
